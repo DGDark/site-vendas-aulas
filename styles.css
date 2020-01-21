@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+
+
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+.menu a{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.hearder{
+    background-color:#070303;
+    overflow: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.banner{
+    width: 100%;
+
+}
+.products{
+    display: flex ;
+    justify-content: space-around;
+}
+.products div{
+    width: 30%;
+    text-align: center;
+}
+.products img {
+    width: 100%;
+    border-bottom: 0 15px;
+    border-radius: 15px;
+}
+
+.products img{
+    width: 200px;
+    height: 200px;
+}
